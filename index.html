@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts link -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates&display=swap" rel="stylesheet">
-        <!-- css link -->
-    <link rel="stylesheet" href="./style.css">
-    <title>Portfolio</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/e1549f15ba.js" crossorigin="anonymous"></script>
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<!-- style css -->
+	<link rel="stylesheet" href="style.css">
+	<title>Portfolio</title>
 </head>
 <body>
-    <section class="Showcase">
-        <img src="images/profile.png" alt="profile picture">
-        <h1>I'm Ian.</h1>
-        <p>a web developer.</p>
-        <img src="./images/city.png" alt="" id="city">
-        <img src="./images/forest.png" alt="" id="forrest">
-        <img src="./images/cloud.png" alt="" id="cloud-left">
-        <img src="./images/cloud.png" alt="" id="cloud-right">
-    </section>
-</body>
+	<div class="main-conatiner">
+		<section class="intro">
+			<img class="intro--cloud-left" src="images/Go Green - Small Cloud.png" alt="">
+			<img class="intro--cloud-right" src="images/Go Green - Small Cloud.png" alt="">
+			<div class="intro--info-container">
+				<img class="intro--profile-img" src="images/profile.png" alt="profile">
+				<h1 class="intro--name">I'm Ian.</h1>
+				<h3 class="intro--job-title">a <span>Web developer</span></h3>
+			</div>
+			<img class="intro--background-img" src="images/Go Green - Sunny Day.png" alt="">
+			<img class="intro--windMill-img" src="images/Go Green - Eolic System 1.png" alt="">
+			<img class="intro--forrest-img" src="images/Go Green - Small Forest.png" alt="">
+		</section>
+		<section class="about">
+			<h1 class="section--title">About</h1>
+			<ul class="about--list">
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam beatae voluptatibus modi, omnis nulla optio esse! Saepe, reiciendis dicta.</li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quidem adipisci assumenda nesciunt repellendus eveniet inventore atque ullam sit.</li>
+			</ul>
+		</section>
+		<section class="skill">
+			<h1 class="section--title">Skills</h1>
+			<div class="skill--item-container">
+				<img class="skill--seo-img" src="images/skill.png" alt="">
+				<p class="skill--item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero recusandae vero consequuntur ids deleniti corporis distinctio accusamus, rerum deserunt doloremque! Saepe illum quidem voluptatem cumque!</p>
+			</div>
+			<div class="skill--item-container">
+				<img class="skill--seo-img" src="images/skill.png" alt="">
+				<p class="skill--item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero recusandae vero consequuntur ids deleniti corporis distinctio accusamus, rerum deserunt doloremque! Saepe illum quidem voluptatem cumque!</p>
+			</div>
+		</section>
+		<section class="contact">
+			<h1 class="section--title">Get In Touch</h1>
+			<button>Contact</button>
+		</section>
+		<!-- <footer>
+			<i class="fa-brands fa-facebook-square"></i>
+			<i class="fa-brands fa-twitter-square"></i>
+			<i class="fa-brands fa-youtube-square"></i>
+			<p>© 2022 Ian Raphael at Code Buddies Web.</p>
+		</footer> -->
+	</div>
+ </body>
 </html>
